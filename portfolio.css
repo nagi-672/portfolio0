@@ -242,6 +242,11 @@ footer {
     padding: 20px;
     flex-wrap: wrap;
 }
+@media (max-width: 768px){
+    #logos img {
+        max-width: 60px;
+    }
+
 #video1 {
     position: fixed;
     top: 50%;
