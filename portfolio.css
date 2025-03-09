@@ -1,0 +1,252 @@
+/* Global Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+    background: url('images/background1.jpeg');
+    background-size: cover;
+    background-image: center;
+    background-repeat: repeat;
+    height:100vh;
+}
+body:hover {
+    background-color: #f8f9fa;   
+}
+
+/* Header */
+header {
+    text-align: center;
+    background: orange;
+    color: white;
+    padding: 40px 10px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+/* Navigation */
+nav {
+    background: #90854a;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display:block
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #1abc9c;
+}
+
+/* Sections */
+section {
+    padding: 50px 20px;
+    
+}
+
+/* About Me */
+#about {
+    background: #ffb400;
+    color: white;
+    background: rgba(255, 255, 255, 0.2);
+    margin: 20px auto;
+    padding: 15px;
+    width: 60%;
+    background-color: rgb(64, 164, 126);
+    border-left: 5px solid #046632;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+#education {
+    background: #479638;
+    color: white;
+    background: rgba(255, 255, 255, 0.2);
+    margin: 20px auto;
+    padding: 15px;
+    width: 60%;
+    background-color: rgb(116, 171, 159);
+    border-left: 5px solid #168082;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Skills */
+#skills {
+    background: #8e44ad;
+    color: white;
+    padding: 10px;
+    background: rgba(181, 153, 43, 0.2);
+    margin: 20px auto;
+    padding: 15px;
+    width: 60%;
+    background-color: rgb(156, 190, 18);
+    border-left: 5px solid #9ca47f;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    
+}
+
+.skill-box {
+    background: rgba(255, 255, 255, 0.2);
+    margin: 20px auto;
+    padding: 20px;
+    width: 50%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.skill-box h3 {
+    color: #ffffff;
+}
+
+/* Projects */
+#projects {
+    background: #2980b9;
+    color: white;
+    background: rgba(255, 255, 255, 0.2);
+    margin: 20px auto;
+    padding: 15px;
+    width: 60%;
+    background-color: rgb(95, 77, 77);
+    border-left: 3px solid #adaea7;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+
+/* Experience */
+#experience {
+    background: #e7b73c;
+    color: white;
+    background: rgba(255, 255, 255, 0.2);
+    margin: 20px auto;
+    padding: 15px;
+    width: 60%;
+    background-color: grey;
+    border-left: 5px solid #98bc14;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+#achievements {
+    background: #2980b9;
+    color: white;
+    background: rgba(255, 255, 255, 0.2);
+    display: block;
+    margin: 20px auto;
+    padding: 15px;
+    width: 60%;
+    background-color: rgb(95, 182, 57);
+    border-left: 5px solid #ed7d86;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+#languages {
+    background: #2980b9;
+    color: white;
+    background: rgba(255, 255, 255, 0.2);
+    display: block;
+    margin: 20px auto;
+    padding: 15px;
+    width: 60%;
+    background-color: rgb(57, 182, 130);
+    border-left: 5px solid #ed7d86;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Contact */
+#contact {
+    background: #16a085;
+    color: white;
+    background: rgba(255, 255, 255, 0.2);
+    margin: 20px auto;
+    padding: 15px;
+    width: 60%;
+    background-color: rgb(219, 46, 235);
+    border-left: 5px solid #473eec;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background-image: "C:\Users\Suguna Mulapaku\Downloads\3d-casual-life-linkedin-1.png";
+}
+
+#contact a {
+    color: #fff;
+    font-weight: bold;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background: #3b371a;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .skill-box, .project {
+        width: 80%;
+    }
+}
+#achievements ul li {
+    margin: 20px;
+}
+#experiencets ul li {
+    margin: 20px;
+}
+#projects ul li {
+    margin: 20px;
+}
+#skills ul li {
+    margin: 20px;
+}
+#languages ul li {
+    margin: 20px;
+}
+#about p {
+    margin: 10px;
+    line-height: 1.5;;
+}
+#contact p a img {
+    border-radius: 5px;
+    transition: transform 0.3s;
+    
+}
+#logos {
+    display:flex;
+    padding: 50px;
+}
+#video1 {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 90vw;
+    height: auto;
+    z-index:1000;
+}
