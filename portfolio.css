@@ -257,7 +257,7 @@ footer {
 
 /* Ensure the logos do not become too small on mobile */
 @media (max-width: 768px) {  
-    .logo-container img {
+    #logos img {
         width: 12vw;
         max-width: 60px;
     }
