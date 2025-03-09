@@ -272,3 +272,9 @@ footer {
     height: auto;
     z-index:1000;
 }
+@media (max-width: 768px){
+    #video1 video {
+        max-width: 200px;
+    }
+}
+
