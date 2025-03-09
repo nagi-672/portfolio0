@@ -239,7 +239,8 @@ footer {
 }
 #logos {
     display:flex;
-    padding: 50px;
+    padding: 20px;
+    flex-wrap: wrap;
 }
 #video1 {
     position: fixed;
