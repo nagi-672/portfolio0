@@ -238,14 +238,30 @@ footer {
     
 }
 #logos {
-    display:flex;
-    padding: 20px;
-    flex-wrap: wrap;
+    display: flex;
+    justify-content: center; /* Centers logos horizontally */
+    align-items: center; /* Aligns them vertically */
+    gap: 15px; /* Space between logos */
+    flex-wrap: nowrap; /* Prevents logos from wrapping */
+    overflow-x: auto; /* Allows horizontal scrolling if needed */
+    white-space: nowrap; /* Ensures logos stay in a single row */
+    padding: 10px;
 }
-@media (max-width: 768px){
-    #logos img {
+
+/* Responsive logo sizing */
+#logos img {
+    width: 8vw; /* Scales based on screen width */
+    max-width: 80px; /* Sets a reasonable max size */
+    height: auto; /* Keeps aspect ratio */
+}
+
+/* Ensure the logos do not become too small on mobile */
+@media (max-width: 768px) {  
+    .logo-container img {
+        width: 12vw;
         max-width: 60px;
     }
+}
 
 #video1 {
     position: fixed;
